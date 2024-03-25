@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { PoniesComponent } from './ponies/ponies.component';
+import { MenuComponent } from './menu/menu.component';
+import { RacesComponent } from './races/races.component';
 
 @Component({
   selector: 'ns-root',
   standalone: true,
-  imports: [PoniesComponent],
+  imports: [MenuComponent,RacesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
